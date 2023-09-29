@@ -60,15 +60,15 @@ nav a{
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
   z-index: 1;
-  left: -200px;
-  top: -400px;
+/*   left: -200px;
+  top: -400px; */
 }
 
 
-.skip a:focus {
+/* .skip a:focus {
   left: 0px;
   top: 40px; 
-}
+} */
 
 
 /* .container {
@@ -163,7 +163,7 @@ first div in the grid  and place it in the grid. */
 .container div:first-child {
 grid-column: 1/-1;
 min-height: 500px;
-background-image: url('../images/header.jpg');
+background-image: URL("../images/header.jpg");
 background-repeat: no-repeat; 
 background-attachment: fixed; 
 background-size: cover;
@@ -181,7 +181,7 @@ background-position: center;
         grid-column: 2/span 1; 
       }
       .about {
-      grid-row: 3; 
+      grid-row: 2; 
       }
       .method {
       grid-row: 3;
